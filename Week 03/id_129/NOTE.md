@@ -1,4 +1,20 @@
 # 深度优先搜索和广度优先搜索
+
+## 回顾递归代码模板
+```js
+function recursion(level,param){
+  //terminator
+  if(lever>MAX_LEVEL){
+    //process result
+    return;
+  }
+  //process current logic
+  process(level,param)
+
+  recursion(level+1,newParam)
+}
+```
+
 ## 搜索-遍历
 - 每个节点都要访问一次
 - 每个节点仅仅访问一次
@@ -24,3 +40,5 @@ function dfs(node,visited){
   }
 }
 ```
+
+
