@@ -12,7 +12,7 @@
  - 子节点 Child Node
       - 左子节点，右子节点
  - 兄弟节点 Siblings  
-  **链表（Linked List）是特殊化的Tree,因为有两个next指针，而链表只有一个next**
+  **链表（Linked List）是特殊化的Tree,因为有两个next指针**
   **树是特殊化的图**
 
 ### 图(Graph)
@@ -34,5 +34,5 @@
 2. 插入新结点（创建）
 3. 删除
   时间复杂度：log(n)
-
+(二叉搜索树在线demo)<https://visualgo.net/zh/bst>
 **？？** 为什么树的遍历都是递归？
